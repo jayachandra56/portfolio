@@ -1,0 +1,62 @@
+.projects{
+    /* background-color: #d6d6d6; */
+    color: #4E2FA6;
+}
+.projects h1{
+    /* background-color: #4E2FA6; */
+    color: #4E2FA6;
+    width: fit-content;
+    margin: 0px auto;
+    padding:8px 30px;
+}
+.projectDesc{
+    color: #6d6c6c;
+}
+.joyhoo, .avani{
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+    padding:20px;
+    text-align: left;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.kolors, .restaurant{
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+    padding:20px;
+    text-align: left;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+}
+.image{
+    width: 200px;
+    height: auto;
+    margin: 6px;
+}
+.imageWeb{
+    width: 600px;
+    margin: 6px;
+}
+@media only screen and (max-width: 600px) {
+  .imageWeb{
+    width: 100%;
+  }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(+100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

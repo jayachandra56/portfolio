@@ -1,0 +1,33 @@
+.about{
+    
+    width: 100%;
+    background-size: cover;
+    background-color: #fff;
+    padding: 150px 0px 80px 80px;
+}
+.imageAbt{
+    border-radius: 50%;
+    width: 60%;
+    box-shadow: 0px 0px 25px 0px rgb(77, 76, 76);
+}
+.content{
+    color: #5A35B8;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.content p{
+    color: rgb(63, 62, 62);
+    font-weight: 600;
+    font-size: x-large;
+    font-family: 'Arima Madurai', cursive;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
