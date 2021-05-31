@@ -3,7 +3,7 @@
     width: 100%;
     background-size: cover;
     background-color: #fff;
-    padding: 150px 0px 80px 80px;
+    padding: 150px 0px 80px 0px;
 }
 .imageAbt{
     border-radius: 50%;
@@ -21,6 +21,10 @@
     font-size: x-large;
     font-family: 'Arima Madurai', cursive;
     font-family: 'Fredericka the Great', cursive;
+}
+.content a{
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 @keyframes slideInFromLeft {

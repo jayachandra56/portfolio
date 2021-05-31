@@ -8,7 +8,7 @@ function skills(){
         <div className="container-fluid p-5 skills" id="skillsID">
             <h1>Skills</h1>
             <div className="container ">
-                <div className="row p-5 rounded">
+                <div className="row p-1 rounded">
                     <div className="col-md-4 col-sm-12">
                         <h3>Mobile Developer</h3>
                         <div className="flip-card  shadow">

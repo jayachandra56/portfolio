@@ -3,6 +3,7 @@ import './experience.css'
 import restaurantWeb from '../../images/restaurantWeb.png';
 import restaurantMobile from '../../images/smartRest.gif';
 import venuegif from '../../images/venuebees.gif';
+import dilpay from '../../images/dilpay.gif';
 function experience(){
     return(
         <div className="container projects" id="projectsID">
@@ -37,6 +38,12 @@ reservations of tables and vehicle parking spaces for the customer.
                 </p>
                 <img className="image" src={restaurantMobile} alt="Smart Restaurant"/>
                 <img className="imageWeb" src={restaurantWeb} alt="Smart Restaurant"/>
+            </div>
+            <div className="contanier shadow dilpay">
+                <h3>DilPay</h3>
+                <p className="projectDesc">DilPay is a multi-purpose payments app encapsulated by online bus ticket bookings, mobile recharge, DTH Recharge, and also utility bill payment services.
+                </p>
+                <img className="image" src={dilpay} alt="DilPay"/>
             </div>
         </div>
     )
